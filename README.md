@@ -24,5 +24,7 @@ To use this code:
 ============
 
 Another guy solved this problem in Java here: http://adaminamsterdam.com/page/06032016/06032016.html
-But his approach is a bit different (uses random generators to randomly guess route-length). I think my approach is better :P
+But his approach is a bit different (uses random generators to randomly guess route-length). 
+
+I think my approach is better. Better because in his approach the answer is always different and may or may not deviate significantly from the statistically average, minimum and maximum possible values. My approach (hopefully) takes into account the equal probability distribution of the chance of the signal being red or green upon arrival as well as the amount of seconds until the signal changes after arrival. The answers of my script are always the same giving the same input parameters and it gives a range of possible waiting times: minimum, maximum and average waiting time... 
 """
